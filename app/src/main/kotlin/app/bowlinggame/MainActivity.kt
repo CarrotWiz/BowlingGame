@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import app.bowlinggame.ui.activity.LoginActivity
-import app.bowlinggame.ui.activity.SignUpActivity
+import app.bowlinggame.ui.fragment.activity.LoginActivity
+import app.bowlinggame.ui.fragment.activity.SignUpActivity
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
