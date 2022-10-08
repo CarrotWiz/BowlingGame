@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="New Account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        <TextView
+            android:text="Username"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="start"
+            android:labelFor="@+id/username" />
+        <EditText
+            android:id="@+id/username"
+            android:hint="Enter Username"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:labelFor="@+id/password"
+            android:text="Password" />
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="Enter Password"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+        <Button
+            android:id="@+id/done_button"
+            android:text="Sign Up"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
