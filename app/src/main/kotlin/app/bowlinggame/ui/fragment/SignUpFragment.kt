@@ -8,11 +8,19 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import app.bowlinggame.R
+import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class SignUpFragment : Fragment(), View.OnClickListener {
 
     private lateinit var username: EditText
     private lateinit var password: EditText
+    private lateinit var etConfPass : EditText
+
+    // create Firebase authentication object
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -23,8 +31,12 @@ class SignUpFragment : Fragment(), View.OnClickListener {
 
         username = v.findViewById(R.id.username)
         password = v.findViewById(R.id.password)
+        etConfPass = v.findViewById(R.id.etSConfPassword)
         val signUpButton: Button = v.findViewById(R.id.done_button)
         signUpButton.setOnClickListener(this)
+
+        // Initialising auth object
+        auth = Firebase.auth
 
         return v
     }
@@ -36,6 +48,33 @@ class SignUpFragment : Fragment(), View.OnClickListener {
     }
 
     private fun createAccount() {
-        //TODO: create account code
+        val activity = requireActivity()
+        val email = username.text.toString()
+        val pass = password.text.toString()
+        val confirmPassword = etConfPass.text.toString()
+
+        // check pass
+        if (email.isBlank() || pass.isBlank() || confirmPassword.isBlank()) {
+            Toast.makeText(activity.applicationContext, "Email and Password can't be blank", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        if (pass != confirmPassword) {
+            Toast.makeText(activity, "Password and Confirm Password do not match", Toast.LENGTH_SHORT)
+                .show()
+            return
+        }
+        // If all credential are correct
+        // We call createUserWithEmailAndPassword
+        // using auth object and pass the
+        // email and pass in it.
+        auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(activity) {
+            if (it.isSuccessful) {
+                Toast.makeText(activity, "Successfully Singed Up", Toast.LENGTH_SHORT).show()
+                //finish()
+            } else {
+                Toast.makeText(activity, "Singed Up Failed!", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 }
