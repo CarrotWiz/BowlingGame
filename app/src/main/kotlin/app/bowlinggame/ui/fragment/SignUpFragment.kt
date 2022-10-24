@@ -69,11 +69,15 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         // using auth object and pass the
         // email and pass in it.
         auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(activity) {
+            println(email)
+            println(pass)
             if (it.isSuccessful) {
-                Toast.makeText(activity, "Successfully Singed Up", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity, "Successfully Signed Up", Toast.LENGTH_SHORT).show()
+                val user = auth.currentUser
                 //finish()
             } else {
-                Toast.makeText(activity, "Singed Up Failed!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity, "Sign Up Failed!", Toast.LENGTH_SHORT).show()
+                println(it.exception)
             }
         }
     }
