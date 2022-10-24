@@ -1,5 +1,6 @@
 package app.bowlinggame.ui.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import app.bowlinggame.R
 import android.widget.Toast
+import app.bowlinggame.ui.fragment.activity.HomeActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginFragment : Fragment(), View.OnClickListener{
@@ -51,6 +53,7 @@ class LoginFragment : Fragment(), View.OnClickListener{
         auth.signInWithEmailAndPassword(uname, pass).addOnCompleteListener(requireActivity()) {
             if (it.isSuccessful) {
                 Toast.makeText(activity, "Successfully LoggedIn", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(context, HomeActivity::class.java))
             } else
                 Toast.makeText(activity, "Log In failed ", Toast.LENGTH_SHORT).show()
         }
