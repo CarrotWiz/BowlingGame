@@ -6,5 +6,4 @@ data class User(
     var username: String? = null,
     var highScore: Int = 0,
     var bowlingAvg: Int = 0,
-    var Games: List<Game> = emptyList(),
 )

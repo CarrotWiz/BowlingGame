@@ -9,12 +9,16 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import app.bowlinggame.MainActivity
 import app.bowlinggame.R
+import app.bowlinggame.model.Game
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 class HomeFragment : Fragment(), View.OnClickListener {
     private lateinit var auth: FirebaseAuth
+    private lateinit var database: DatabaseReference
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -29,6 +33,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
         historyButton.setOnClickListener(this)
         logoutButton.setOnClickListener(this)
         auth = Firebase.auth
+        database = Firebase.database.reference
 
         return v
     }
@@ -42,7 +47,10 @@ class HomeFragment : Fragment(), View.OnClickListener {
     }
 
     private fun singlePlayerButtonClick() {
-
+        //NOTE: temporarily using this button to add game data
+        var gamesRef = auth.currentUser?.let { database.child("Users").child(it.uid).child("games") }
+        var game = Game(102)
+        gamesRef?.push()?.setValue(game)
     }
 
     private fun historyButtonClick() {
