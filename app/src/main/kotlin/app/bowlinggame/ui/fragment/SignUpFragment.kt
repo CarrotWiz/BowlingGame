@@ -10,9 +10,12 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import app.bowlinggame.R
 import android.widget.Toast
+import app.bowlinggame.model.User
 import app.bowlinggame.ui.fragment.activity.HomeActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 class SignUpFragment : Fragment(), View.OnClickListener {
@@ -23,6 +26,8 @@ class SignUpFragment : Fragment(), View.OnClickListener {
 
     // create Firebase authentication object
     private lateinit var auth: FirebaseAuth
+    // create Firebase database object
+    private lateinit var database: DatabaseReference
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -39,6 +44,7 @@ class SignUpFragment : Fragment(), View.OnClickListener {
 
         // Initialising auth object
         auth = Firebase.auth
+        database = Firebase.database.reference
 
         return v
     }
@@ -73,11 +79,24 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(activity) {
             if (it.isSuccessful) {
                 Toast.makeText(activity, "Successfully Signed Up", Toast.LENGTH_SHORT).show()
+                saveUserData()
                 startActivity(Intent(context, HomeActivity::class.java))
             } else {
                 Toast.makeText(activity, "Sign Up Failed!", Toast.LENGTH_SHORT).show()
                 println(it.exception)
             }
         }
+    }
+
+    private fun saveUserData(){
+        val currentUser = auth.currentUser ?: return
+        val user = User(auth.currentUser!!.uid, auth.currentUser!!.email)
+        database.child(currentUser.uid).setValue(user)
+            .addOnCompleteListener{
+                Toast.makeText(activity, "User inserted successfully", Toast.LENGTH_SHORT).show()
+            }
+            .addOnFailureListener{ err ->
+                Toast.makeText(activity, "Error: ${err.message}", Toast.LENGTH_SHORT).show()
+            }
     }
 }
