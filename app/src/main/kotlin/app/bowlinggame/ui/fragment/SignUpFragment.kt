@@ -21,6 +21,7 @@ import com.google.firebase.ktx.Firebase
 class SignUpFragment : Fragment(), View.OnClickListener {
 
     private lateinit var username: EditText
+    private lateinit var email: EditText
     private lateinit var password: EditText
     private lateinit var etConfPass : EditText
 
@@ -37,6 +38,7 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         val v = inflater.inflate(R.layout.signup_fragment, container, false)
 
         username = v.findViewById(R.id.username)
+        email = v.findViewById(R.id.email)
         password = v.findViewById(R.id.password)
         etConfPass = v.findViewById(R.id.etSConfPassword)
         val signUpButton: Button = v.findViewById(R.id.done_button)
@@ -57,13 +59,14 @@ class SignUpFragment : Fragment(), View.OnClickListener {
 
     private fun createAccount() {
         val activity = requireActivity()
-        val email = username.text.toString()
+        val name = username.text.toString()
+        val email = email.text.toString()
         val pass = password.text.toString()
         val confirmPassword = etConfPass.text.toString()
 
         // check pass
-        if (email.isBlank() || pass.isBlank() || confirmPassword.isBlank()) {
-            Toast.makeText(activity.applicationContext, "Email and Password can't be blank", Toast.LENGTH_SHORT).show()
+        if (name.isBlank() || email.isBlank() || pass.isBlank() || confirmPassword.isBlank()) {
+            Toast.makeText(activity.applicationContext, "No fields can be blank", Toast.LENGTH_SHORT).show()
             return
         }
 
@@ -79,7 +82,7 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(activity) {
             if (it.isSuccessful) {
                 Toast.makeText(activity, "Successfully Signed Up", Toast.LENGTH_SHORT).show()
-                saveUserData()
+                saveUserData(auth.currentUser!!.uid, name, auth.currentUser!!.email)
                 startActivity(Intent(context, HomeActivity::class.java))
             } else {
                 Toast.makeText(activity, "Sign Up Failed!", Toast.LENGTH_SHORT).show()
@@ -88,10 +91,9 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         }
     }
 
-    private fun saveUserData(){
-        val currentUser = auth.currentUser ?: return
-        val user = User(auth.currentUser!!.uid, auth.currentUser!!.email, "test", 0, 0, emptyList())
-        database.child(currentUser.uid).setValue(user)
+    private fun saveUserData(uid: String, username: String?, email: String?){
+        val user = User(uid, email, username, 0, 0, emptyList())
+        database.child("Users").child(uid).setValue(user)
             .addOnCompleteListener{
                 Toast.makeText(activity, "User inserted successfully", Toast.LENGTH_SHORT).show()
             }
