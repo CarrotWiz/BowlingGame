@@ -90,7 +90,7 @@ class SignUpFragment : Fragment(), View.OnClickListener {
 
     private fun saveUserData(){
         val currentUser = auth.currentUser ?: return
-        val user = User(auth.currentUser!!.uid, auth.currentUser!!.email)
+        val user = User(auth.currentUser!!.uid, auth.currentUser!!.email, "test", 0, 0, emptyList())
         database.child(currentUser.uid).setValue(user)
             .addOnCompleteListener{
                 Toast.makeText(activity, "User inserted successfully", Toast.LENGTH_SHORT).show()
