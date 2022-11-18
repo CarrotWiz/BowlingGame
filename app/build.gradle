@@ -8,6 +8,9 @@ android {
     compileSdk 33
 
     defaultConfig {
+        ndk{
+            abiFilters 'arm64-v7a'
+        }
         applicationId "app.bowlinggame"
         minSdk 23
         targetSdk 33
@@ -34,7 +37,8 @@ android {
 }
 
 dependencies {
-
+    implementation project(':unityLibrary')
+    implementation fileTree(dir: project(':unityLibrary').getProjectDir().toString() + ('\\libs'), include: ['*.jar'])
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.6.1'
