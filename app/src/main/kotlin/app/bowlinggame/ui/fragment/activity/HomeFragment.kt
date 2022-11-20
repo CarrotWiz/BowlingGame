@@ -46,11 +46,18 @@ class HomeFragment : Fragment(), View.OnClickListener {
         }
     }
 
-    private fun singlePlayerButtonClick() {
-        //NOTE: temporarily using this button to add game data
-        var gamesRef = auth.currentUser?.let { database.child("Users").child(it.uid).child("games") }
-        var game = Game(102)
-        gamesRef?.push()?.setValue(game)
+//    private fun singlePlayerButtonClick() {
+//        //NOTE: temporarily using this button to add game data
+//        var gamesRef = auth.currentUser?.let { database.child("Users").child(it.uid).child("games") }
+//        var game = Game(102)
+//        gamesRef?.push()?.setValue(game)
+//    }
+
+    private fun singlePlayerButtonClick() { //btnLoadUnity
+        //NOTE: temporarily using this button to start unity activity
+        val intent = Intent(context, MainUnityActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+        startActivityForResult(intent, 1)
     }
 
     private fun historyButtonClick() {
