@@ -55,9 +55,11 @@ class HomeFragment : Fragment(), View.OnClickListener {
 
     private fun singlePlayerButtonClick() { //btnLoadUnity
         //NOTE: temporarily using this button to start unity activity
+        print("reached")
         val intent = Intent(context, MainUnityActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
-        startActivityForResult(intent, 1)
+        startActivity(intent)
+        //startActivityForResult(intent, 1)
     }
 
     private fun historyButtonClick() {
