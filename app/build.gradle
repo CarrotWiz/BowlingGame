@@ -6,8 +6,10 @@ plugins {
 
 android {
     compileSdk 33
+    ndkVersion = "21.3.6528147"
 
     defaultConfig {
+
         applicationId "app.bowlinggame"
         minSdk 23
         targetSdk 33
@@ -27,6 +29,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a'
+            universalApk true
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

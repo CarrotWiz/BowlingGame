@@ -34,7 +34,7 @@ class MainUnityActivity : OverrideUnityActivity() {
     override fun showMainActivity(setToColor: String) {
         val intent = Intent(this, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
-        intent.putExtra("setColor", setToColor)
+        //intent.putExtra("setColor", setToColor)
         startActivity(intent)
     }
 
@@ -52,20 +52,20 @@ class MainUnityActivity : OverrideUnityActivity() {
             myButton.setOnClickListener { showMainActivity("") }
             layout.addView(myButton, 300, 200)
         }
-        run {
-            val myButton = Button(this)
-            myButton.text = "Send Msg"
-            myButton.x = 320f
-            myButton.y = 500f
-            myButton.setOnClickListener {
-                UnityPlayer.UnitySendMessage(
-                    "Cube",
-                    "ChangeColor",
-                    "yellow"
-                )
-            }
-            layout.addView(myButton, 300, 200)
-        }
+//        run {
+//            val myButton = Button(this)
+//            myButton.text = "Send Msg"
+//            myButton.x = 320f
+//            myButton.y = 500f
+//            myButton.setOnClickListener {
+//                UnityPlayer.UnitySendMessage(
+//                    "Cube",
+//                    "ChangeColor",
+//                    "yellow"
+//                )
+//            }
+//            layout.addView(myButton, 300, 200)
+//        }
         run {
             val myButton = Button(this)
             myButton.text = "Unload"

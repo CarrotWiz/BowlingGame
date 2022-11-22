@@ -5,7 +5,7 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion '30.0.2'
 
     compileOptions {
@@ -15,10 +15,10 @@ android {
 
     defaultConfig {
         minSdkVersion 22
-        targetSdkVersion 30
+        targetSdkVersion 31
         applicationId 'com.DefaultCompany.Bowling'
         ndk {
-            abiFilters 'armeabi-v7a'
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
         }
         versionCode 1
         versionName '1.0.2'
@@ -49,6 +49,9 @@ android {
 
     packagingOptions {
         doNotStrip '*/armeabi-v7a/*.so'
+        doNotStrip '*/arm64-v8a/*.so'
+        doNotStrip '*/x86/*.so'
+        doNotStrip '*/x86_64/*.so'
     }
 
     bundle {

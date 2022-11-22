@@ -58,8 +58,8 @@ class HomeFragment : Fragment(), View.OnClickListener {
         print("reached")
         val intent = Intent(context, MainUnityActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
-        startActivity(intent)
-        //startActivityForResult(intent, 1)
+        //startActivity(intent)
+        startActivityForResult(intent, 1)
     }
 
     private fun historyButtonClick() {
