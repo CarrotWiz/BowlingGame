@@ -3,6 +3,7 @@ package app.bowlinggame.ui.fragment
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.Surface
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -25,7 +26,15 @@ class LoginFragment : Fragment(), View.OnClickListener{
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val v = inflater.inflate(R.layout.login_fragment, container, false)
+        val v: View
+        val activity = requireActivity()
+        val rotation = activity.windowManager.defaultDisplay.rotation
+        v = if(rotation == Surface.ROTATION_90 || rotation == Surface.ROTATION_270) {
+            inflater.inflate(R.layout.login_fragment_land, container, false)
+        } else {
+            inflater.inflate(R.layout.login_fragment, container, false)
+        }
+
         loginUsername = v.findViewById(R.id.username)
         loginPassword = v.findViewById(R.id.password)
         val loginButton: Button = v.findViewById(R.id.lg_button)
@@ -35,7 +44,6 @@ class LoginFragment : Fragment(), View.OnClickListener{
         auth = FirebaseAuth.getInstance()
 
         return v
-        //return super.onCreateView(inflater, container, savedInstanceState)
     }
 
     override fun onClick(view: View) {
