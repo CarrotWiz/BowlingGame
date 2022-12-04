@@ -9,7 +9,6 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import app.bowlinggame.MainActivity
 import app.bowlinggame.R
-import app.bowlinggame.model.Game
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.DatabaseReference
@@ -63,7 +62,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
     }
 
     private fun historyButtonClick() {
-
+        startActivity(Intent(context, HistoryActivity::class.java))
     }
 
     private fun logoutButtonClick() {
