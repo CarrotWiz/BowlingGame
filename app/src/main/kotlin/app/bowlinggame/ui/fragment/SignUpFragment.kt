@@ -3,6 +3,7 @@ package app.bowlinggame.ui.fragment
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.Surface
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -35,7 +36,14 @@ class SignUpFragment : Fragment(), View.OnClickListener {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val v = inflater.inflate(R.layout.signup_fragment, container, false)
+        val v: View
+        val activity = requireActivity()
+        val rotation = activity.windowManager.defaultDisplay.rotation
+        v = if(rotation == Surface.ROTATION_90 || rotation == Surface.ROTATION_270) {
+            inflater.inflate(R.layout.signup_fragment_land, container, false)
+        } else {
+            inflater.inflate(R.layout.signup_fragment, container, false)
+        }
 
         username = v.findViewById(R.id.username)
         email = v.findViewById(R.id.email)
