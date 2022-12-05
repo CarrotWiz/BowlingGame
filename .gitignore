@@ -17,3 +17,5 @@ app/google-services.json
 *.so
 *.o
 *.dll
+*/androidBuild*
+*/androidBuild
