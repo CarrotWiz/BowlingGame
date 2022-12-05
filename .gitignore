@@ -19,3 +19,7 @@ app/google-services.json
 *.dll
 */androidBuild*
 */androidBuild
+/androidBuild*
+/androidBuild
+*/Bowling/androidBuild*
+*/Bowling/androidBuild

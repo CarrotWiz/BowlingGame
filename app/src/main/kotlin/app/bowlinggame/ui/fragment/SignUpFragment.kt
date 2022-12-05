@@ -83,6 +83,12 @@ class SignUpFragment : Fragment(), View.OnClickListener {
                 .show()
             return
         }
+
+        if (pass.length < 8 || !pass.contains(Regex("[0-9]")) ) {
+            Toast.makeText(activity, "Password must have at least 8 characters and 1 digit", Toast.LENGTH_SHORT)
+                .show()
+            return
+        }
         // If all credential are correct
         // We call createUserWithEmailAndPassword
         // using auth object and pass the

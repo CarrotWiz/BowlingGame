@@ -1532,348 +1532,366 @@ extern void EventHandlerList_Find_m5E0CAB161102D1551CF2E636C8BC7B71C959A5C8 (voi
 // 0x000002FB System.String System.ComponentModel.ISite::get_Name()
 // 0x000002FC System.Boolean System.ComponentModel.ISynchronizeInvoke::get_InvokeRequired()
 // 0x000002FD System.IAsyncResult System.ComponentModel.ISynchronizeInvoke::BeginInvoke(System.Delegate,System.Object[])
-// 0x000002FE System.Void System.ComponentModel.ArrayConverter::.ctor()
+// 0x000002FE System.Void System.ComponentModel.InvalidEnumArgumentException::.ctor()
+extern void InvalidEnumArgumentException__ctor_m30DFADC9DAE3067EBFB7AF17F9EE5DBAF5B00D10 (void);
+// 0x000002FF System.Void System.ComponentModel.InvalidEnumArgumentException::.ctor(System.String)
+extern void InvalidEnumArgumentException__ctor_mB48FBD0C68C97EF69D80B56EB927CAF08E3181E1 (void);
+// 0x00000300 System.Void System.ComponentModel.InvalidEnumArgumentException::.ctor(System.String,System.Int32,System.Type)
+extern void InvalidEnumArgumentException__ctor_mB6DA9F3F2403BFA3AAD577AA4A27034D29A60EB4 (void);
+// 0x00000301 System.Void System.ComponentModel.InvalidEnumArgumentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void InvalidEnumArgumentException__ctor_m05AB9EBB8AEDE6DF1BFE1E8E7F2BA4EB303DAA13 (void);
+// 0x00000302 System.Void System.ComponentModel.ArrayConverter::.ctor()
 extern void ArrayConverter__ctor_mAA6B57C16F167FF104B8E23402DE87ACA5E13A2B (void);
-// 0x000002FF System.Void System.ComponentModel.BaseNumberConverter::.ctor()
+// 0x00000303 System.Void System.ComponentModel.BaseNumberConverter::.ctor()
 extern void BaseNumberConverter__ctor_m697E7E5DB315CE6CDA318F256A634BAEF3C7C76F (void);
-// 0x00000300 System.Void System.ComponentModel.BooleanConverter::.ctor()
+// 0x00000304 System.Void System.ComponentModel.BooleanConverter::.ctor()
 extern void BooleanConverter__ctor_m50990A1CB60D3557199985EF164FF1E8AFCADC87 (void);
-// 0x00000301 System.Void System.ComponentModel.DecimalConverter::.ctor()
+// 0x00000305 System.Void System.ComponentModel.DecimalConverter::.ctor()
 extern void DecimalConverter__ctor_mC1E815EF17DE8DBD91FB472C83A4F38514704B46 (void);
-// 0x00000302 System.Void System.ComponentModel.DefaultEventAttribute::.ctor(System.String)
+// 0x00000306 System.Void System.ComponentModel.DefaultEventAttribute::.ctor(System.String)
 extern void DefaultEventAttribute__ctor_m7FE746F300D84188A24F4CF38A330EA255E5EE46 (void);
-// 0x00000303 System.String System.ComponentModel.DefaultEventAttribute::get_Name()
+// 0x00000307 System.String System.ComponentModel.DefaultEventAttribute::get_Name()
 extern void DefaultEventAttribute_get_Name_m156545E2B0D123DFD61C375B1CB4987F08D65BF3 (void);
-// 0x00000304 System.Boolean System.ComponentModel.DefaultEventAttribute::Equals(System.Object)
+// 0x00000308 System.Boolean System.ComponentModel.DefaultEventAttribute::Equals(System.Object)
 extern void DefaultEventAttribute_Equals_m1B7CE5677AFA75A3AD6223345C99D5EA796622B2 (void);
-// 0x00000305 System.Int32 System.ComponentModel.DefaultEventAttribute::GetHashCode()
+// 0x00000309 System.Int32 System.ComponentModel.DefaultEventAttribute::GetHashCode()
 extern void DefaultEventAttribute_GetHashCode_mD3A5713780914BA883AF0AB0AD88E5427D910184 (void);
-// 0x00000306 System.Void System.ComponentModel.DefaultEventAttribute::.cctor()
+// 0x0000030A System.Void System.ComponentModel.DefaultEventAttribute::.cctor()
 extern void DefaultEventAttribute__cctor_m8F7247E7092040D01936116D0D07453F983A06E7 (void);
-// 0x00000307 System.Void System.ComponentModel.DefaultPropertyAttribute::.ctor(System.String)
+// 0x0000030B System.Void System.ComponentModel.DefaultPropertyAttribute::.ctor(System.String)
 extern void DefaultPropertyAttribute__ctor_m43FD7A91A431F72713FFA7829DE9BD24A321FD3A (void);
-// 0x00000308 System.String System.ComponentModel.DefaultPropertyAttribute::get_Name()
+// 0x0000030C System.String System.ComponentModel.DefaultPropertyAttribute::get_Name()
 extern void DefaultPropertyAttribute_get_Name_m1F2C2642F68F489167FB7F2E005CCBDBF9745890 (void);
-// 0x00000309 System.Boolean System.ComponentModel.DefaultPropertyAttribute::Equals(System.Object)
+// 0x0000030D System.Boolean System.ComponentModel.DefaultPropertyAttribute::Equals(System.Object)
 extern void DefaultPropertyAttribute_Equals_mCD709C4B3F90DDDBDB45AE2969732EA3775CF26E (void);
-// 0x0000030A System.Int32 System.ComponentModel.DefaultPropertyAttribute::GetHashCode()
+// 0x0000030E System.Int32 System.ComponentModel.DefaultPropertyAttribute::GetHashCode()
 extern void DefaultPropertyAttribute_GetHashCode_m401BC4A948F7890DDD718B884C6CE06296578BA2 (void);
-// 0x0000030B System.Void System.ComponentModel.DefaultPropertyAttribute::.cctor()
+// 0x0000030F System.Void System.ComponentModel.DefaultPropertyAttribute::.cctor()
 extern void DefaultPropertyAttribute__cctor_mE7CC9E813F3663E5D55E5F2FA52D6E1A8C0040E8 (void);
-// 0x0000030C System.Void System.ComponentModel.DoubleConverter::.ctor()
+// 0x00000310 System.Void System.ComponentModel.DesignTimeVisibleAttribute::.ctor(System.Boolean)
+extern void DesignTimeVisibleAttribute__ctor_m89415646271B6901AF745CDD2BF3A2244DFCD946 (void);
+// 0x00000311 System.Boolean System.ComponentModel.DesignTimeVisibleAttribute::get_Visible()
+extern void DesignTimeVisibleAttribute_get_Visible_m0EB229B7592D784080EEFA2C7100DF58ADFF064F (void);
+// 0x00000312 System.Boolean System.ComponentModel.DesignTimeVisibleAttribute::Equals(System.Object)
+extern void DesignTimeVisibleAttribute_Equals_m59ADCA70D1F8363BAACDC37274852A8E6C9A954A (void);
+// 0x00000313 System.Int32 System.ComponentModel.DesignTimeVisibleAttribute::GetHashCode()
+extern void DesignTimeVisibleAttribute_GetHashCode_m4E2FF875B5BD47A6C7EDCB5F9CB66D6860F5132B (void);
+// 0x00000314 System.Void System.ComponentModel.DesignTimeVisibleAttribute::.cctor()
+extern void DesignTimeVisibleAttribute__cctor_m60EE97AF27C65BA7BD5BC1FC200B7B261BD3F084 (void);
+// 0x00000315 System.Void System.ComponentModel.DoubleConverter::.ctor()
 extern void DoubleConverter__ctor_m3CA5201BA68AB510BB2112A6755FCFEAB6DE53BA (void);
-// 0x0000030D System.Void System.ComponentModel.EditorAttribute::.ctor(System.String,System.String)
+// 0x00000316 System.Void System.ComponentModel.EditorAttribute::.ctor(System.String,System.String)
 extern void EditorAttribute__ctor_mAD74D6DDDC7752F9BD989300FBE02E1E4FE83FAA (void);
-// 0x0000030E System.String System.ComponentModel.EditorAttribute::get_EditorBaseTypeName()
+// 0x00000317 System.String System.ComponentModel.EditorAttribute::get_EditorBaseTypeName()
 extern void EditorAttribute_get_EditorBaseTypeName_m1CF77F3AA9AB5AE9CD3585FE86B24E1DD21B1EB4 (void);
-// 0x0000030F System.String System.ComponentModel.EditorAttribute::get_EditorTypeName()
+// 0x00000318 System.String System.ComponentModel.EditorAttribute::get_EditorTypeName()
 extern void EditorAttribute_get_EditorTypeName_m587C6D66C4567BC349AC9E2C65FE5E021ED2EB09 (void);
-// 0x00000310 System.Boolean System.ComponentModel.EditorAttribute::Equals(System.Object)
+// 0x00000319 System.Boolean System.ComponentModel.EditorAttribute::Equals(System.Object)
 extern void EditorAttribute_Equals_mE07449682FEDC2A230A7ECB0A005E1F91F6EF693 (void);
-// 0x00000311 System.Int32 System.ComponentModel.EditorAttribute::GetHashCode()
+// 0x0000031A System.Int32 System.ComponentModel.EditorAttribute::GetHashCode()
 extern void EditorAttribute_GetHashCode_mBB45B68F421A996ABBF4B6AC8DC506D4C96CE7DC (void);
-// 0x00000312 System.Void System.ComponentModel.ExpandableObjectConverter::.ctor()
+// 0x0000031B System.Void System.ComponentModel.ExpandableObjectConverter::.ctor()
 extern void ExpandableObjectConverter__ctor_mB2F0F20591EA133C5A0BCC4C871CDDD6974730DC (void);
-// 0x00000313 System.Void System.ComponentModel.Int16Converter::.ctor()
+// 0x0000031C System.Void System.ComponentModel.Int16Converter::.ctor()
 extern void Int16Converter__ctor_m3803A7772B21F49200FC142C193A40DC286C9DFF (void);
-// 0x00000314 System.Void System.ComponentModel.Int32Converter::.ctor()
+// 0x0000031D System.Void System.ComponentModel.Int32Converter::.ctor()
 extern void Int32Converter__ctor_m88220DA12F6ED6FE4D1232B73C20DECE9EFC63FF (void);
-// 0x00000315 System.Void System.ComponentModel.Int64Converter::.ctor()
+// 0x0000031E System.Void System.ComponentModel.Int64Converter::.ctor()
 extern void Int64Converter__ctor_m3C124DB065F27F6BEAB7ABAF4B3D13E6A9F3E94C (void);
-// 0x00000316 System.Void System.ComponentModel.ReferenceConverter::.ctor(System.Type)
+// 0x0000031F System.Void System.ComponentModel.ReferenceConverter::.ctor(System.Type)
 extern void ReferenceConverter__ctor_mECD358A5C07B37EFD8659FDEF4C067A16E51171E (void);
-// 0x00000317 System.Void System.ComponentModel.ReferenceConverter::.cctor()
+// 0x00000320 System.Void System.ComponentModel.ReferenceConverter::.cctor()
 extern void ReferenceConverter__cctor_m7A6A35413E4F4527499053D28FDEFB4BB91AC1A5 (void);
-// 0x00000318 System.Void System.ComponentModel.SettingsBindableAttribute::.ctor(System.Boolean)
+// 0x00000321 System.Void System.ComponentModel.SettingsBindableAttribute::.ctor(System.Boolean)
 extern void SettingsBindableAttribute__ctor_mC0F9613A258449016DF2A53220343DB20A388A91 (void);
-// 0x00000319 System.Boolean System.ComponentModel.SettingsBindableAttribute::get_Bindable()
+// 0x00000322 System.Boolean System.ComponentModel.SettingsBindableAttribute::get_Bindable()
 extern void SettingsBindableAttribute_get_Bindable_m448BA41F157DF20B461625E635BAA0DD861668F3 (void);
-// 0x0000031A System.Boolean System.ComponentModel.SettingsBindableAttribute::Equals(System.Object)
+// 0x00000323 System.Boolean System.ComponentModel.SettingsBindableAttribute::Equals(System.Object)
 extern void SettingsBindableAttribute_Equals_mF15B757F5C23A846B04FB2FB277E23572CF6FECB (void);
-// 0x0000031B System.Int32 System.ComponentModel.SettingsBindableAttribute::GetHashCode()
+// 0x00000324 System.Int32 System.ComponentModel.SettingsBindableAttribute::GetHashCode()
 extern void SettingsBindableAttribute_GetHashCode_m890594467DEA957BDEC69BC6EA32A5728DD84D47 (void);
-// 0x0000031C System.Void System.ComponentModel.SettingsBindableAttribute::.cctor()
+// 0x00000325 System.Void System.ComponentModel.SettingsBindableAttribute::.cctor()
 extern void SettingsBindableAttribute__cctor_m7535DF492E918C80ED2CB42AD5ABD1ACB1D57C68 (void);
-// 0x0000031D System.Void System.ComponentModel.SingleConverter::.ctor()
+// 0x00000326 System.Void System.ComponentModel.SingleConverter::.ctor()
 extern void SingleConverter__ctor_m463B63EB8D945D2D43E5B8099D8F0EC24AEBDA7A (void);
-// 0x0000031E System.Void System.ComponentModel.StringConverter::.ctor()
+// 0x00000327 System.Void System.ComponentModel.StringConverter::.ctor()
 extern void StringConverter__ctor_m074D8686ED6ABC0E64C20D1EFD4406F215E7187A (void);
-// 0x0000031F System.Void System.ComponentModel.TimeSpanConverter::.ctor()
+// 0x00000328 System.Void System.ComponentModel.TimeSpanConverter::.ctor()
 extern void TimeSpanConverter__ctor_m7319DCEEDA2578B340AD4FEEE010AE5CEFAC9BD5 (void);
-// 0x00000320 System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
+// 0x00000329 System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
 extern void TypeConverterAttribute__ctor_mEEE3CA7C17555BA93BB76201BA2BCF879E617DA9 (void);
-// 0x00000321 System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
+// 0x0000032A System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
 extern void TypeConverterAttribute__ctor_m0E1A55E1BD368F0AABCAF766BBCE1D275777A52A (void);
-// 0x00000322 System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.String)
+// 0x0000032B System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.String)
 extern void TypeConverterAttribute__ctor_mF1AB0946F2E1E398141ACF79468EA4DB1FE27139 (void);
-// 0x00000323 System.String System.ComponentModel.TypeConverterAttribute::get_ConverterTypeName()
+// 0x0000032C System.String System.ComponentModel.TypeConverterAttribute::get_ConverterTypeName()
 extern void TypeConverterAttribute_get_ConverterTypeName_mBBE5335F11FC13345D2828866172BB5DDF9F3E45 (void);
-// 0x00000324 System.Boolean System.ComponentModel.TypeConverterAttribute::Equals(System.Object)
+// 0x0000032D System.Boolean System.ComponentModel.TypeConverterAttribute::Equals(System.Object)
 extern void TypeConverterAttribute_Equals_mA3BF2C8CFA0AE8B5D0F52E066B1141AA53B4E015 (void);
-// 0x00000325 System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
+// 0x0000032E System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
 extern void TypeConverterAttribute_GetHashCode_m23ACA2A297447E17150BF490188919676FBD8A01 (void);
-// 0x00000326 System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
+// 0x0000032F System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
 extern void TypeConverterAttribute__cctor_m7A206154E18C66B9CEA6934D8AFB1AE9DA4EA666 (void);
-// 0x00000327 System.Void System.ComponentModel.CollectionConverter::.ctor()
+// 0x00000330 System.Void System.ComponentModel.CollectionConverter::.ctor()
 extern void CollectionConverter__ctor_m20ED0C661750EBE427D356F24AED92A407988147 (void);
-// 0x00000328 System.Void System.ComponentModel.Component::Finalize()
+// 0x00000331 System.Void System.ComponentModel.Component::Finalize()
 extern void Component_Finalize_m124F6FA2207E76C9DF18740E653C49D483A6E5C6 (void);
-// 0x00000329 System.Boolean System.ComponentModel.Component::get_CanRaiseEvents()
+// 0x00000332 System.Boolean System.ComponentModel.Component::get_CanRaiseEvents()
 extern void Component_get_CanRaiseEvents_m23993A519269D33F515ADADAB081C6ADF1551AF4 (void);
-// 0x0000032A System.Boolean System.ComponentModel.Component::get_CanRaiseEventsInternal()
+// 0x00000333 System.Boolean System.ComponentModel.Component::get_CanRaiseEventsInternal()
 extern void Component_get_CanRaiseEventsInternal_mAF68FD325FA909AEA171953DF83CB1051A9EA3CC (void);
-// 0x0000032B System.ComponentModel.ISite System.ComponentModel.Component::get_Site()
+// 0x00000334 System.ComponentModel.ISite System.ComponentModel.Component::get_Site()
 extern void Component_get_Site_mAB0D574C04230287AFDEB9E691F885A49E18A80C (void);
-// 0x0000032C System.Void System.ComponentModel.Component::Dispose()
+// 0x00000335 System.Void System.ComponentModel.Component::Dispose()
 extern void Component_Dispose_m7D0C063EA18E1FFA59CB369232131150372DC7B2 (void);
-// 0x0000032D System.Void System.ComponentModel.Component::Dispose(System.Boolean)
+// 0x00000336 System.Void System.ComponentModel.Component::Dispose(System.Boolean)
 extern void Component_Dispose_mD106692D0A494758CFFA2C9ACC0D7F94DD389192 (void);
-// 0x0000032E System.Object System.ComponentModel.Component::GetService(System.Type)
+// 0x00000337 System.Object System.ComponentModel.Component::GetService(System.Type)
 extern void Component_GetService_mBAA7A515C81E800F2EEF6B796A5C4AA7C08B0A57 (void);
-// 0x0000032F System.Boolean System.ComponentModel.Component::get_DesignMode()
+// 0x00000338 System.Boolean System.ComponentModel.Component::get_DesignMode()
 extern void Component_get_DesignMode_m1F9F6A7CF2856B86B6571430C7F403A6393B90F0 (void);
-// 0x00000330 System.String System.ComponentModel.Component::ToString()
+// 0x00000339 System.String System.ComponentModel.Component::ToString()
 extern void Component_ToString_m6B31E5C41739F547FD9F10B6439E8C3F1E15EBC3 (void);
-// 0x00000331 System.Void System.ComponentModel.Component::.ctor()
+// 0x0000033A System.Void System.ComponentModel.Component::.ctor()
 extern void Component__ctor_mDA70A27899B8D66203C57A3E8678A11E033B4DF6 (void);
-// 0x00000332 System.Void System.ComponentModel.Component::.cctor()
+// 0x0000033B System.Void System.ComponentModel.Component::.cctor()
 extern void Component__cctor_mFA01BE8B3C6836B029B2E607352AF2E0D3D10057 (void);
-// 0x00000333 System.Void System.ComponentModel.ComponentConverter::.ctor(System.Type)
+// 0x0000033C System.Void System.ComponentModel.ComponentConverter::.ctor(System.Type)
 extern void ComponentConverter__ctor_m55556BF96FD3D27C7D9F5B413514A01DF0A3911C (void);
-// 0x00000334 System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
+// 0x0000033D System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
 extern void EnumConverter__ctor_m3E3C7D81C8092A5591BAA556288B2A3E22DCA99B (void);
-// 0x00000335 System.Void System.ComponentModel.TypeConverter::.ctor()
+// 0x0000033E System.Void System.ComponentModel.TypeConverter::.ctor()
 extern void TypeConverter__ctor_mA5B1882A94D0491297B903563E8B03D75B2F67A2 (void);
-// 0x00000336 System.Void System.ComponentModel.Win32Exception::.ctor()
+// 0x0000033F System.Void System.ComponentModel.Win32Exception::.ctor()
 extern void Win32Exception__ctor_m0B20F25EC4A56A122FF766429AF40AF6292E11B1 (void);
-// 0x00000337 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
+// 0x00000340 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
 extern void Win32Exception__ctor_mFC38F1C99031D227C6BB3CA07099866D39994281 (void);
-// 0x00000338 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32,System.String)
+// 0x00000341 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32,System.String)
 extern void Win32Exception__ctor_mB0380F996944EDFCF9CACC7F28A18874F19B4FD4 (void);
-// 0x00000339 System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000342 System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void Win32Exception__ctor_m1B3DF3F51BBF050C18F933B36027A8A4902668C4 (void);
-// 0x0000033A System.Void System.ComponentModel.Win32Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000343 System.Void System.ComponentModel.Win32Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void Win32Exception_GetObjectData_mB7993FD0BE12222D5518373EBAB84F89651D99D2 (void);
-// 0x0000033B System.String System.ComponentModel.Win32Exception::GetErrorMessage(System.Int32)
+// 0x00000344 System.String System.ComponentModel.Win32Exception::GetErrorMessage(System.Int32)
 extern void Win32Exception_GetErrorMessage_m4DF2B191F4BBBF3B7AC82CE276E3E62F0A9159CC (void);
-// 0x0000033C System.Void System.ComponentModel.NotifyParentPropertyAttribute::.ctor(System.Boolean)
+// 0x00000345 System.Void System.ComponentModel.NotifyParentPropertyAttribute::.ctor(System.Boolean)
 extern void NotifyParentPropertyAttribute__ctor_m921D2426472D2601F59590590DAE1585D8768FD5 (void);
-// 0x0000033D System.Boolean System.ComponentModel.NotifyParentPropertyAttribute::get_NotifyParent()
+// 0x00000346 System.Boolean System.ComponentModel.NotifyParentPropertyAttribute::get_NotifyParent()
 extern void NotifyParentPropertyAttribute_get_NotifyParent_m9CE85A9E830D177C945D2E79C8BB15F1E4354A80 (void);
-// 0x0000033E System.Boolean System.ComponentModel.NotifyParentPropertyAttribute::Equals(System.Object)
+// 0x00000347 System.Boolean System.ComponentModel.NotifyParentPropertyAttribute::Equals(System.Object)
 extern void NotifyParentPropertyAttribute_Equals_m3E26D4045E9F41428447AAC23326763A6794A810 (void);
-// 0x0000033F System.Int32 System.ComponentModel.NotifyParentPropertyAttribute::GetHashCode()
+// 0x00000348 System.Int32 System.ComponentModel.NotifyParentPropertyAttribute::GetHashCode()
 extern void NotifyParentPropertyAttribute_GetHashCode_mD6070F690A4DA9B4E70962FDEE7E5CD9EC1B8FC8 (void);
-// 0x00000340 System.Void System.ComponentModel.NotifyParentPropertyAttribute::.cctor()
+// 0x00000349 System.Void System.ComponentModel.NotifyParentPropertyAttribute::.cctor()
 extern void NotifyParentPropertyAttribute__cctor_mBA4B327F55E2A2DD03A16456139F97628070B152 (void);
-// 0x00000341 System.ComponentModel.IComponent System.ComponentModel.Design.IDesignerHost::get_RootComponent()
-// 0x00000342 System.Void System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::.ctor(System.String,System.String,System.Boolean)
+// 0x0000034A System.ComponentModel.IComponent System.ComponentModel.Design.IDesignerHost::get_RootComponent()
+// 0x0000034B System.Void System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute::.ctor(System.String,System.String,System.Boolean)
 extern void RootDesignerSerializerAttribute__ctor_m52C401C2E19FF1C4E9A8F140811D5AA762C60602 (void);
-// 0x00000343 System.Boolean System.Collections.HashtableExtensions::TryGetValue(System.Collections.Hashtable,System.Object,T&)
-// 0x00000344 System.Void System.Collections.Specialized.OrderedDictionary::.ctor()
+// 0x0000034C System.Boolean System.Collections.HashtableExtensions::TryGetValue(System.Collections.Hashtable,System.Object,T&)
+// 0x0000034D System.Void System.Collections.Specialized.OrderedDictionary::.ctor()
 extern void OrderedDictionary__ctor_mBEC4CCF86E1A22330C31E1C069B2F21695445A10 (void);
-// 0x00000345 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Int32)
+// 0x0000034E System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Int32)
 extern void OrderedDictionary__ctor_m552AA3E019FF5D93545B5DFFB7B4917C72251600 (void);
-// 0x00000346 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Collections.IEqualityComparer)
+// 0x0000034F System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Collections.IEqualityComparer)
 extern void OrderedDictionary__ctor_mAF002F0247B65A7CC1A012077622E8A5E97A7BE9 (void);
-// 0x00000347 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Int32,System.Collections.IEqualityComparer)
+// 0x00000350 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Int32,System.Collections.IEqualityComparer)
 extern void OrderedDictionary__ctor_mF88C40080BA8F436358DE5195BB88C5957A4AC66 (void);
-// 0x00000348 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000351 System.Void System.Collections.Specialized.OrderedDictionary::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void OrderedDictionary__ctor_m442555F1C427B3EF7DC305AE414FD5EBD90A4861 (void);
-// 0x00000349 System.Int32 System.Collections.Specialized.OrderedDictionary::get_Count()
+// 0x00000352 System.Int32 System.Collections.Specialized.OrderedDictionary::get_Count()
 extern void OrderedDictionary_get_Count_m9B55DB3275692CD51DE69FA8200D1998BD258A0A (void);
-// 0x0000034A System.Boolean System.Collections.Specialized.OrderedDictionary::System.Collections.IDictionary.get_IsFixedSize()
+// 0x00000353 System.Boolean System.Collections.Specialized.OrderedDictionary::System.Collections.IDictionary.get_IsFixedSize()
 extern void OrderedDictionary_System_Collections_IDictionary_get_IsFixedSize_mC85A0FC9CF039E7594E4C28C68B0E4BA243E1595 (void);
-// 0x0000034B System.Boolean System.Collections.Specialized.OrderedDictionary::get_IsReadOnly()
+// 0x00000354 System.Boolean System.Collections.Specialized.OrderedDictionary::get_IsReadOnly()
 extern void OrderedDictionary_get_IsReadOnly_m8D512A98345A30BC8BB45818A36FCC20DCE3569A (void);
-// 0x0000034C System.Boolean System.Collections.Specialized.OrderedDictionary::System.Collections.ICollection.get_IsSynchronized()
+// 0x00000355 System.Boolean System.Collections.Specialized.OrderedDictionary::System.Collections.ICollection.get_IsSynchronized()
 extern void OrderedDictionary_System_Collections_ICollection_get_IsSynchronized_m68B485D9B7C83F599CDA6CA26D88EBCFE4DBA22B (void);
-// 0x0000034D System.Collections.ICollection System.Collections.Specialized.OrderedDictionary::get_Keys()
+// 0x00000356 System.Collections.ICollection System.Collections.Specialized.OrderedDictionary::get_Keys()
 extern void OrderedDictionary_get_Keys_m39D726F42E6E2A524AE555A41AE203F06E4F6792 (void);
-// 0x0000034E System.Collections.ArrayList System.Collections.Specialized.OrderedDictionary::get_objectsArray()
+// 0x00000357 System.Collections.ArrayList System.Collections.Specialized.OrderedDictionary::get_objectsArray()
 extern void OrderedDictionary_get_objectsArray_mDA996CFABA5837C3361B0E94C89E6389202A9756 (void);
-// 0x0000034F System.Collections.Hashtable System.Collections.Specialized.OrderedDictionary::get_objectsTable()
+// 0x00000358 System.Collections.Hashtable System.Collections.Specialized.OrderedDictionary::get_objectsTable()
 extern void OrderedDictionary_get_objectsTable_mA667F6EDF6E4E78C7F7AA118F35C86C64A9EFD80 (void);
-// 0x00000350 System.Object System.Collections.Specialized.OrderedDictionary::System.Collections.ICollection.get_SyncRoot()
+// 0x00000359 System.Object System.Collections.Specialized.OrderedDictionary::System.Collections.ICollection.get_SyncRoot()
 extern void OrderedDictionary_System_Collections_ICollection_get_SyncRoot_m67C653BEB9C1E451229203FAE5B6453681E7FBDB (void);
-// 0x00000351 System.Object System.Collections.Specialized.OrderedDictionary::get_Item(System.Object)
+// 0x0000035A System.Object System.Collections.Specialized.OrderedDictionary::get_Item(System.Object)
 extern void OrderedDictionary_get_Item_m5755C415F2E5CAC5A0AE3EFBB5A8D84915B37ED8 (void);
-// 0x00000352 System.Void System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object)
+// 0x0000035B System.Void System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object)
 extern void OrderedDictionary_set_Item_m9406B6A94651B7DB301BC383518FC9B37277122E (void);
-// 0x00000353 System.Collections.ICollection System.Collections.Specialized.OrderedDictionary::get_Values()
+// 0x0000035C System.Collections.ICollection System.Collections.Specialized.OrderedDictionary::get_Values()
 extern void OrderedDictionary_get_Values_m14CFA04FF0A8DC8B41386192B029EC604AF551BA (void);
-// 0x00000354 System.Void System.Collections.Specialized.OrderedDictionary::Add(System.Object,System.Object)
+// 0x0000035D System.Void System.Collections.Specialized.OrderedDictionary::Add(System.Object,System.Object)
 extern void OrderedDictionary_Add_m0E0236E85A80AB44EC533F2127F485E88753B4B3 (void);
-// 0x00000355 System.Void System.Collections.Specialized.OrderedDictionary::Clear()
+// 0x0000035E System.Void System.Collections.Specialized.OrderedDictionary::Clear()
 extern void OrderedDictionary_Clear_mCED01246B19A457FAD097372DD7EFA0840D94E07 (void);
-// 0x00000356 System.Boolean System.Collections.Specialized.OrderedDictionary::Contains(System.Object)
+// 0x0000035F System.Boolean System.Collections.Specialized.OrderedDictionary::Contains(System.Object)
 extern void OrderedDictionary_Contains_m63AFE431564000B20908A732633780B192F7F95E (void);
-// 0x00000357 System.Void System.Collections.Specialized.OrderedDictionary::CopyTo(System.Array,System.Int32)
+// 0x00000360 System.Void System.Collections.Specialized.OrderedDictionary::CopyTo(System.Array,System.Int32)
 extern void OrderedDictionary_CopyTo_m96E73EF7B84BA4D1ABA184134465F41DFFE73C2A (void);
-// 0x00000358 System.Int32 System.Collections.Specialized.OrderedDictionary::IndexOfKey(System.Object)
+// 0x00000361 System.Int32 System.Collections.Specialized.OrderedDictionary::IndexOfKey(System.Object)
 extern void OrderedDictionary_IndexOfKey_m0A1A8D3EA6A175D722513B7AAD3518A4C1502837 (void);
-// 0x00000359 System.Void System.Collections.Specialized.OrderedDictionary::Remove(System.Object)
+// 0x00000362 System.Void System.Collections.Specialized.OrderedDictionary::Remove(System.Object)
 extern void OrderedDictionary_Remove_mD4DFDFA8710B689C990EEE8EFCC50EC21CE51EA3 (void);
-// 0x0000035A System.Collections.IDictionaryEnumerator System.Collections.Specialized.OrderedDictionary::GetEnumerator()
+// 0x00000363 System.Collections.IDictionaryEnumerator System.Collections.Specialized.OrderedDictionary::GetEnumerator()
 extern void OrderedDictionary_GetEnumerator_mECA50DD161EDC87F84CD75764643826BFF14C16F (void);
-// 0x0000035B System.Collections.IEnumerator System.Collections.Specialized.OrderedDictionary::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000364 System.Collections.IEnumerator System.Collections.Specialized.OrderedDictionary::System.Collections.IEnumerable.GetEnumerator()
 extern void OrderedDictionary_System_Collections_IEnumerable_GetEnumerator_m4AC8186C465CF478A39CC2FADBDBA75AA9DA5084 (void);
-// 0x0000035C System.Void System.Collections.Specialized.OrderedDictionary::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000365 System.Void System.Collections.Specialized.OrderedDictionary::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void OrderedDictionary_GetObjectData_m946A3884AC9A0398EF3CBDA7E5C7C268B01FC02C (void);
-// 0x0000035D System.Void System.Collections.Specialized.OrderedDictionary::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
+// 0x00000366 System.Void System.Collections.Specialized.OrderedDictionary::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
 extern void OrderedDictionary_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m600671E042DB3E5BD39D5439D3C88010EEA1E95A (void);
-// 0x0000035E System.Void System.Collections.Specialized.OrderedDictionary::OnDeserialization(System.Object)
+// 0x00000367 System.Void System.Collections.Specialized.OrderedDictionary::OnDeserialization(System.Object)
 extern void OrderedDictionary_OnDeserialization_m069DE30CEBE5F11C239DD42383204D14793714D7 (void);
-// 0x0000035F System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::.ctor(System.Collections.ArrayList,System.Int32)
+// 0x00000368 System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::.ctor(System.Collections.ArrayList,System.Int32)
 extern void OrderedDictionaryEnumerator__ctor_mEC12764C0293A3EFE021BEE4385D537C3C0EB775 (void);
-// 0x00000360 System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Current()
+// 0x00000369 System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Current()
 extern void OrderedDictionaryEnumerator_get_Current_m1513DF120F398083CA52B7B330D7FF9D5FD6BC69 (void);
-// 0x00000361 System.Collections.DictionaryEntry System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Entry()
+// 0x0000036A System.Collections.DictionaryEntry System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Entry()
 extern void OrderedDictionaryEnumerator_get_Entry_m70BE070A9125BA894E98803E322A51E34AAB0074 (void);
-// 0x00000362 System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Key()
+// 0x0000036B System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Key()
 extern void OrderedDictionaryEnumerator_get_Key_mAE1632D8B4767AC6A321CDDCECFA3B943CFEB202 (void);
-// 0x00000363 System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Value()
+// 0x0000036C System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::get_Value()
 extern void OrderedDictionaryEnumerator_get_Value_m3D9DB591978A7EA9C640AD820A301AD176665AB9 (void);
-// 0x00000364 System.Boolean System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::MoveNext()
+// 0x0000036D System.Boolean System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::MoveNext()
 extern void OrderedDictionaryEnumerator_MoveNext_m25E708E43E6B36CEAB84121CB0831590F40985BF (void);
-// 0x00000365 System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::Reset()
+// 0x0000036E System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryEnumerator::Reset()
 extern void OrderedDictionaryEnumerator_Reset_m6878E0A1524911AEBEEC87C578C75584DAFD9022 (void);
-// 0x00000366 System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::.ctor(System.Collections.ArrayList,System.Boolean)
+// 0x0000036F System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::.ctor(System.Collections.ArrayList,System.Boolean)
 extern void OrderedDictionaryKeyValueCollection__ctor_mA61FF47888F401F7194B3AD6B6F5F81F9FECEA64 (void);
-// 0x00000367 System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000370 System.Void System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void OrderedDictionaryKeyValueCollection_System_Collections_ICollection_CopyTo_m6B8299303DC7D0A30936938CABE4F81F610077FF (void);
-// 0x00000368 System.Int32 System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_Count()
+// 0x00000371 System.Int32 System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_Count()
 extern void OrderedDictionaryKeyValueCollection_System_Collections_ICollection_get_Count_m7E6084DFB4648AD05337326CC87BC5AAAC2B310B (void);
-// 0x00000369 System.Boolean System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_IsSynchronized()
+// 0x00000372 System.Boolean System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_IsSynchronized()
 extern void OrderedDictionaryKeyValueCollection_System_Collections_ICollection_get_IsSynchronized_mE73CC54355B822C837985F6534050DB9472A42EA (void);
-// 0x0000036A System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_SyncRoot()
+// 0x00000373 System.Object System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.ICollection.get_SyncRoot()
 extern void OrderedDictionaryKeyValueCollection_System_Collections_ICollection_get_SyncRoot_m970D75F7E81A1BB6FA21D797A7D0A068D749E511 (void);
-// 0x0000036B System.Collections.IEnumerator System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000374 System.Collections.IEnumerator System.Collections.Specialized.OrderedDictionary/OrderedDictionaryKeyValueCollection::System.Collections.IEnumerable.GetEnumerator()
 extern void OrderedDictionaryKeyValueCollection_System_Collections_IEnumerable_GetEnumerator_m915EACF605AF9EBDC96A2BDB466682095A03154D (void);
-// 0x0000036C System.Void System.Collections.Specialized.StringDictionary::.ctor()
+// 0x00000375 System.Void System.Collections.Specialized.StringDictionary::.ctor()
 extern void StringDictionary__ctor_mF13D065DE0B8C21DBAB7873436D7D7C879373A7C (void);
-// 0x0000036D System.Void System.Collections.Specialized.StringDictionary::Add(System.String,System.String)
+// 0x00000376 System.Void System.Collections.Specialized.StringDictionary::Add(System.String,System.String)
 extern void StringDictionary_Add_mE81F28657F0C11A7242C286D10AB4BFA34081FAB (void);
-// 0x0000036E System.Collections.IEnumerator System.Collections.Specialized.StringDictionary::GetEnumerator()
+// 0x00000377 System.Collections.IEnumerator System.Collections.Specialized.StringDictionary::GetEnumerator()
 extern void StringDictionary_GetEnumerator_m3E900457E2146001383B0E3590FA5FECD3460BC1 (void);
-// 0x0000036F System.Void System.Collections.Specialized.CaseSensitiveStringDictionary::.ctor()
+// 0x00000378 System.Void System.Collections.Specialized.CaseSensitiveStringDictionary::.ctor()
 extern void CaseSensitiveStringDictionary__ctor_m2AF7A1302E4A8EE55E5E98BA342FDC3EF89A3F5E (void);
-// 0x00000370 System.Void System.Collections.Specialized.CaseSensitiveStringDictionary::Add(System.String,System.String)
+// 0x00000379 System.Void System.Collections.Specialized.CaseSensitiveStringDictionary::Add(System.String,System.String)
 extern void CaseSensitiveStringDictionary_Add_m9B3BE19D3A3468F470E99F7CC4D553877A81764D (void);
-// 0x00000371 System.Void System.Collections.Generic.ValueListBuilder`1::.ctor(System.Span`1<T>)
-// 0x00000372 System.Int32 System.Collections.Generic.ValueListBuilder`1::get_Length()
-// 0x00000373 T& System.Collections.Generic.ValueListBuilder`1::get_Item(System.Int32)
-// 0x00000374 System.Void System.Collections.Generic.ValueListBuilder`1::Append(T)
-// 0x00000375 System.ReadOnlySpan`1<T> System.Collections.Generic.ValueListBuilder`1::AsSpan()
-// 0x00000376 System.Void System.Collections.Generic.ValueListBuilder`1::Dispose()
-// 0x00000377 System.Void System.Collections.Generic.ValueListBuilder`1::Grow()
-// 0x00000378 T System.Collections.Generic.ValueListBuilder`1::Pop()
-// 0x00000379 System.Void System.Collections.Generic.LinkedList`1::.ctor()
-// 0x0000037A System.Void System.Collections.Generic.LinkedList`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x0000037B System.Int32 System.Collections.Generic.LinkedList`1::get_Count()
-// 0x0000037C System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::get_First()
-// 0x0000037D System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-// 0x0000037E System.Void System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.Add(T)
-// 0x0000037F System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddLast(T)
-// 0x00000380 System.Void System.Collections.Generic.LinkedList`1::Clear()
-// 0x00000381 System.Boolean System.Collections.Generic.LinkedList`1::Contains(T)
-// 0x00000382 System.Void System.Collections.Generic.LinkedList`1::CopyTo(T[],System.Int32)
-// 0x00000383 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::Find(T)
-// 0x00000384 System.Collections.Generic.LinkedList`1/Enumerator<T> System.Collections.Generic.LinkedList`1::GetEnumerator()
-// 0x00000385 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.LinkedList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x00000386 System.Boolean System.Collections.Generic.LinkedList`1::Remove(T)
-// 0x00000387 System.Void System.Collections.Generic.LinkedList`1::RemoveFirst()
-// 0x00000388 System.Void System.Collections.Generic.LinkedList`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000389 System.Void System.Collections.Generic.LinkedList`1::OnDeserialization(System.Object)
-// 0x0000038A System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode`1<T>,System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000038B System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000038C System.Void System.Collections.Generic.LinkedList`1::InternalRemoveNode(System.Collections.Generic.LinkedListNode`1<T>)
-// 0x0000038D System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.ICollection.get_IsSynchronized()
-// 0x0000038E System.Object System.Collections.Generic.LinkedList`1::System.Collections.ICollection.get_SyncRoot()
-// 0x0000038F System.Void System.Collections.Generic.LinkedList`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-// 0x00000390 System.Collections.IEnumerator System.Collections.Generic.LinkedList`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000391 System.Void System.Collections.Generic.LinkedList`1/Enumerator::.ctor(System.Collections.Generic.LinkedList`1<T>)
-// 0x00000392 System.Void System.Collections.Generic.LinkedList`1/Enumerator::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000393 T System.Collections.Generic.LinkedList`1/Enumerator::get_Current()
-// 0x00000394 System.Object System.Collections.Generic.LinkedList`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x00000395 System.Boolean System.Collections.Generic.LinkedList`1/Enumerator::MoveNext()
-// 0x00000396 System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Collections.IEnumerator.Reset()
-// 0x00000397 System.Void System.Collections.Generic.LinkedList`1/Enumerator::Dispose()
-// 0x00000398 System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000399 System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-// 0x0000039A System.Void System.Collections.Generic.LinkedListNode`1::.ctor(System.Collections.Generic.LinkedList`1<T>,T)
-// 0x0000039B System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1::get_Next()
-// 0x0000039C T System.Collections.Generic.LinkedListNode`1::get_Value()
-// 0x0000039D System.Void System.Collections.Generic.LinkedListNode`1::Invalidate()
-// 0x0000039E System.String System.IO.Ports.InternalResources::GetMessage(System.Int32)
+// 0x0000037A System.Void System.Collections.Generic.ValueListBuilder`1::.ctor(System.Span`1<T>)
+// 0x0000037B System.Int32 System.Collections.Generic.ValueListBuilder`1::get_Length()
+// 0x0000037C T& System.Collections.Generic.ValueListBuilder`1::get_Item(System.Int32)
+// 0x0000037D System.Void System.Collections.Generic.ValueListBuilder`1::Append(T)
+// 0x0000037E System.ReadOnlySpan`1<T> System.Collections.Generic.ValueListBuilder`1::AsSpan()
+// 0x0000037F System.Void System.Collections.Generic.ValueListBuilder`1::Dispose()
+// 0x00000380 System.Void System.Collections.Generic.ValueListBuilder`1::Grow()
+// 0x00000381 T System.Collections.Generic.ValueListBuilder`1::Pop()
+// 0x00000382 System.Void System.Collections.Generic.LinkedList`1::.ctor()
+// 0x00000383 System.Void System.Collections.Generic.LinkedList`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000384 System.Int32 System.Collections.Generic.LinkedList`1::get_Count()
+// 0x00000385 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::get_First()
+// 0x00000386 System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+// 0x00000387 System.Void System.Collections.Generic.LinkedList`1::System.Collections.Generic.ICollection<T>.Add(T)
+// 0x00000388 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::AddLast(T)
+// 0x00000389 System.Void System.Collections.Generic.LinkedList`1::Clear()
+// 0x0000038A System.Boolean System.Collections.Generic.LinkedList`1::Contains(T)
+// 0x0000038B System.Void System.Collections.Generic.LinkedList`1::CopyTo(T[],System.Int32)
+// 0x0000038C System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::Find(T)
+// 0x0000038D System.Collections.Generic.LinkedList`1/Enumerator<T> System.Collections.Generic.LinkedList`1::GetEnumerator()
+// 0x0000038E System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.LinkedList`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x0000038F System.Boolean System.Collections.Generic.LinkedList`1::Remove(T)
+// 0x00000390 System.Void System.Collections.Generic.LinkedList`1::RemoveFirst()
+// 0x00000391 System.Void System.Collections.Generic.LinkedList`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000392 System.Void System.Collections.Generic.LinkedList`1::OnDeserialization(System.Object)
+// 0x00000393 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode`1<T>,System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000394 System.Void System.Collections.Generic.LinkedList`1::InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000395 System.Void System.Collections.Generic.LinkedList`1::InternalRemoveNode(System.Collections.Generic.LinkedListNode`1<T>)
+// 0x00000396 System.Boolean System.Collections.Generic.LinkedList`1::System.Collections.ICollection.get_IsSynchronized()
+// 0x00000397 System.Object System.Collections.Generic.LinkedList`1::System.Collections.ICollection.get_SyncRoot()
+// 0x00000398 System.Void System.Collections.Generic.LinkedList`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000399 System.Collections.IEnumerator System.Collections.Generic.LinkedList`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000039A System.Void System.Collections.Generic.LinkedList`1/Enumerator::.ctor(System.Collections.Generic.LinkedList`1<T>)
+// 0x0000039B System.Void System.Collections.Generic.LinkedList`1/Enumerator::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x0000039C T System.Collections.Generic.LinkedList`1/Enumerator::get_Current()
+// 0x0000039D System.Object System.Collections.Generic.LinkedList`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x0000039E System.Boolean System.Collections.Generic.LinkedList`1/Enumerator::MoveNext()
+// 0x0000039F System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Collections.IEnumerator.Reset()
+// 0x000003A0 System.Void System.Collections.Generic.LinkedList`1/Enumerator::Dispose()
+// 0x000003A1 System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000003A2 System.Void System.Collections.Generic.LinkedList`1/Enumerator::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
+// 0x000003A3 System.Void System.Collections.Generic.LinkedListNode`1::.ctor(System.Collections.Generic.LinkedList`1<T>,T)
+// 0x000003A4 System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1::get_Next()
+// 0x000003A5 T System.Collections.Generic.LinkedListNode`1::get_Value()
+// 0x000003A6 System.Void System.Collections.Generic.LinkedListNode`1::Invalidate()
+// 0x000003A7 System.String System.IO.Ports.InternalResources::GetMessage(System.Int32)
 extern void InternalResources_GetMessage_m772EEF9B7C246A113177F060FD06ADB8442B0ED6 (void);
-// 0x0000039F System.Void System.IO.Ports.InternalResources::WinIOError(System.Int32,System.String)
+// 0x000003A8 System.Void System.IO.Ports.InternalResources::WinIOError(System.Int32,System.String)
 extern void InternalResources_WinIOError_m00EDA6C02E1DA83984D69308023029541AE785B2 (void);
-// 0x000003A0 System.Int32 System.IO.Ports.InternalResources::MakeHRFromErrorCode(System.Int32)
+// 0x000003A9 System.Int32 System.IO.Ports.InternalResources::MakeHRFromErrorCode(System.Int32)
 extern void InternalResources_MakeHRFromErrorCode_mE80550681537780A529853182710AC3228890880 (void);
-// 0x000003A1 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x000003AA System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m171C269D828658C44041FA68B6DE8CA290ED517F (void);
-// 0x000003A2 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
+// 0x000003AB System.Void System.Net.Configuration.BypassElementCollection::.ctor()
 extern void BypassElementCollection__ctor_m344EC8CD2EACA36E1213C5914037BB133E87FE54 (void);
-// 0x000003A3 System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
+// 0x000003AC System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
 extern void ConnectionManagementElementCollection__ctor_m4698342A715032A762FA04B2745BFCA46263BCB3 (void);
-// 0x000003A4 System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
+// 0x000003AD System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
 extern void ConnectionManagementSection__ctor_m2FA1D29F887BD6498FBEF692BBC0AA727E38E802 (void);
-// 0x000003A5 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
+// 0x000003AE System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
 extern void ConnectionManagementSection_get_Properties_mFCE0F9418E9E8CD2E1301815CC4D548261F58E95 (void);
-// 0x000003A6 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
+// 0x000003AF System.Void System.Net.Configuration.DefaultProxySection::.ctor()
 extern void DefaultProxySection__ctor_m962B68CEFCDE7DFB7646EF16297CA4BE0097284D (void);
-// 0x000003A7 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
+// 0x000003B0 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
 extern void DefaultProxySection_get_Properties_m5186F1A2734EB96F065C7BC14A215D17F8325418 (void);
-// 0x000003A8 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
+// 0x000003B1 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
 extern void DefaultProxySection_Reset_m0B9A1155840E7C55FC24AEDB23FB17A2815EEB77 (void);
-// 0x000003A9 System.Void System.Net.Configuration.ProxyElement::.ctor()
+// 0x000003B2 System.Void System.Net.Configuration.ProxyElement::.ctor()
 extern void ProxyElement__ctor_mC1BDF426F97F4F84CB5A34B423F59EC8748EBD70 (void);
-// 0x000003AA System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
+// 0x000003B3 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
 extern void ProxyElement_get_Properties_mBFE6E283FE7E9329B586ACAADC8F2E047C7ABB2A (void);
-// 0x000003AB System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
+// 0x000003B4 System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
 extern void HttpWebRequestElement__ctor_mB9DDAC7FF431D4AF4CAFCBC96E1A3572A1F83717 (void);
-// 0x000003AC System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
+// 0x000003B5 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
 extern void HttpWebRequestElement_get_Properties_mAA0F11EA73B5397C50809EAC679F2C564F9EC7CA (void);
-// 0x000003AD System.Void System.Net.Configuration.Ipv6Element::.ctor()
+// 0x000003B6 System.Void System.Net.Configuration.Ipv6Element::.ctor()
 extern void Ipv6Element__ctor_m869AC261E0994A8B3D83CEE25C6CB99E6A5EA4C1 (void);
-// 0x000003AE System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
+// 0x000003B7 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
 extern void Ipv6Element_get_Properties_m382D5B5B098EFF19C2A4AC1889CD1C8EAB918322 (void);
-// 0x000003AF System.Void System.Net.Configuration.NetSectionGroup::.ctor()
+// 0x000003B8 System.Void System.Net.Configuration.NetSectionGroup::.ctor()
 extern void NetSectionGroup__ctor_mCD2F0DC2B9F0C6C346BC91BD8750C7111A9528AC (void);
-// 0x000003B0 System.Void System.Net.Configuration.SettingsSection::.ctor()
+// 0x000003B9 System.Void System.Net.Configuration.SettingsSection::.ctor()
 extern void SettingsSection__ctor_mBD94E7E098221DC09775A3AE1713930F6820D242 (void);
-// 0x000003B1 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
+// 0x000003BA System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
 extern void SettingsSection_get_Properties_mA774C9C884F4AD5DEC2BBE31DF7E35CAC71EBF8F (void);
-// 0x000003B2 System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
+// 0x000003BB System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
 extern void PerformanceCountersElement__ctor_m9537195CBC7DC607F7253D06E7B6B1090456E68F (void);
-// 0x000003B3 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
+// 0x000003BC System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
 extern void PerformanceCountersElement_get_Properties_m7C16FBC3E915E8384FB4409209628737B1537C9B (void);
-// 0x000003B4 System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
+// 0x000003BD System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
 extern void ServicePointManagerElement__ctor_m0F1CF21589CA283DA734A472930A9665698B2D36 (void);
-// 0x000003B5 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
+// 0x000003BE System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
 extern void ServicePointManagerElement_get_Properties_m70469523AAD1A2C2E9D4F90DDA1BA619FCE68B58 (void);
-// 0x000003B6 System.Void System.Net.Configuration.SocketElement::.ctor()
+// 0x000003BF System.Void System.Net.Configuration.SocketElement::.ctor()
 extern void SocketElement__ctor_m4FB4C851F1BB20CED74C206EFB1BA9DDFBE024D2 (void);
-// 0x000003B7 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
+// 0x000003C0 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
 extern void SocketElement_get_Properties_m8AF94DEEDA0EB4092F59FBDC361592E1B9EBDEC3 (void);
-// 0x000003B8 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
+// 0x000003C1 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
 extern void WebProxyScriptElement__ctor_mB613D71DE569317E40726CD8DB9A6ABA0A302821 (void);
-// 0x000003B9 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
+// 0x000003C2 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
 extern void WebProxyScriptElement_get_Properties_mF5188225C0C1D64BC136465BB4B0E962FFE9240B (void);
-// 0x000003BA System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
+// 0x000003C3 System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
 extern void WebRequestModulesSection__ctor_mF25CD80A5111A4F87B7FBF7663A3442470B97C0E (void);
-// 0x000003BB System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
+// 0x000003C4 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
 extern void WebRequestModulesSection_get_Properties_mBDBDED569E677717FB617CD36B94AE34BF4208F6 (void);
-// 0x000003BC System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
+// 0x000003C5 System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
 extern void WebRequestModuleElementCollection__ctor_m62C156D78336B2E37EA6F10D477FDEAE4161F99E (void);
-// 0x000003BD System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
+// 0x000003C6 System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
 extern void DiagnosticsConfigurationHandler__ctor_mDFB0000E6218840F66D21BB6C9BF3F647CCBC5A3 (void);
-// 0x000003BE System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
+// 0x000003C7 System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
 extern void DiagnosticsConfigurationHandler_Create_mF21B1CC68B87DE078690B2B493FCDC5F728CBAAB (void);
-// 0x000003BF System.Void Unity.ThrowStub::ThrowNotSupportedException()
+// 0x000003C8 System.Void Unity.ThrowStub::ThrowNotSupportedException()
 extern void ThrowStub_ThrowNotSupportedException_m14168B43936EF78B7B8AC08BD815254DAA1D9FA2 (void);
-static Il2CppMethodPointer s_methodPointers[959] = 
+static Il2CppMethodPointer s_methodPointers[968] = 
 {
 	OidLookup_ToOid_m084AE2948BA1D784EAC148B97B6D5EF94F0D58B0,
 	OidLookup_ShouldUseCache_mAF605BA00A22EA400B99D24286837F6904C84ED0,
@@ -2640,6 +2658,10 @@ static Il2CppMethodPointer s_methodPointers[959] =
 	NULL,
 	NULL,
 	NULL,
+	InvalidEnumArgumentException__ctor_m30DFADC9DAE3067EBFB7AF17F9EE5DBAF5B00D10,
+	InvalidEnumArgumentException__ctor_mB48FBD0C68C97EF69D80B56EB927CAF08E3181E1,
+	InvalidEnumArgumentException__ctor_mB6DA9F3F2403BFA3AAD577AA4A27034D29A60EB4,
+	InvalidEnumArgumentException__ctor_m05AB9EBB8AEDE6DF1BFE1E8E7F2BA4EB303DAA13,
 	ArrayConverter__ctor_mAA6B57C16F167FF104B8E23402DE87ACA5E13A2B,
 	BaseNumberConverter__ctor_m697E7E5DB315CE6CDA318F256A634BAEF3C7C76F,
 	BooleanConverter__ctor_m50990A1CB60D3557199985EF164FF1E8AFCADC87,
@@ -2654,6 +2676,11 @@ static Il2CppMethodPointer s_methodPointers[959] =
 	DefaultPropertyAttribute_Equals_mCD709C4B3F90DDDBDB45AE2969732EA3775CF26E,
 	DefaultPropertyAttribute_GetHashCode_m401BC4A948F7890DDD718B884C6CE06296578BA2,
 	DefaultPropertyAttribute__cctor_mE7CC9E813F3663E5D55E5F2FA52D6E1A8C0040E8,
+	DesignTimeVisibleAttribute__ctor_m89415646271B6901AF745CDD2BF3A2244DFCD946,
+	DesignTimeVisibleAttribute_get_Visible_m0EB229B7592D784080EEFA2C7100DF58ADFF064F,
+	DesignTimeVisibleAttribute_Equals_m59ADCA70D1F8363BAACDC37274852A8E6C9A954A,
+	DesignTimeVisibleAttribute_GetHashCode_m4E2FF875B5BD47A6C7EDCB5F9CB66D6860F5132B,
+	DesignTimeVisibleAttribute__cctor_m60EE97AF27C65BA7BD5BC1FC200B7B261BD3F084,
 	DoubleConverter__ctor_m3CA5201BA68AB510BB2112A6755FCFEAB6DE53BA,
 	EditorAttribute__ctor_mAD74D6DDDC7752F9BD989300FBE02E1E4FE83FAA,
 	EditorAttribute_get_EditorBaseTypeName_m1CF77F3AA9AB5AE9CD3585FE86B24E1DD21B1EB4,
@@ -2856,899 +2883,897 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] =
 	{ 0x060001F1, RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6_AdjustorThunk },
 	{ 0x060001F3, RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[959] = 
+static const int32_t s_InvokerIndices[968] = 
 {
+	6333,
+	7260,
+	6333,
+	7822,
+	7822,
+	5179,
+	3619,
+	3619,
+	5361,
+	5360,
+	7777,
+	6661,
+	6673,
+	7775,
+	7262,
+	4111,
+	2285,
+	4987,
+	7822,
+	6234,
+	5400,
+	5740,
+	5488,
+	5927,
+	5956,
+	5762,
+	7210,
+	7251,
+	5996,
+	5954,
+	7251,
+	5750,
+	6157,
+	7450,
+	7081,
+	7263,
+	6723,
+	5782,
+	6724,
+	5941,
+	4987,
+	4987,
+	4987,
+	5168,
+	5078,
+	4987,
+	7263,
+	4987,
+	1319,
+	2930,
+	4987,
+	5179,
+	5166,
+	3012,
+	3012,
+	6727,
+	6727,
+	5078,
+	5179,
+	4044,
+	4133,
+	7445,
+	2325,
+	2325,
+	2325,
+	7263,
+	7783,
+	7822,
 	5052,
-	5800,
+	4987,
+	5078,
+	4987,
+	7273,
+	7273,
+	7370,
 	5052,
-	6242,
-	6242,
-	4138,
-	2976,
-	2976,
-	4266,
-	4265,
-	6207,
-	5330,
-	5338,
-	6205,
-	5802,
-	3344,
-	1916,
-	3975,
-	6242,
-	4966,
-	4301,
-	4570,
-	4381,
-	4713,
-	4740,
-	4592,
-	5757,
-	5792,
-	4777,
-	4738,
-	5792,
-	4580,
-	4904,
-	5962,
-	5673,
-	5803,
-	5379,
-	4610,
-	5380,
-	4725,
-	3975,
-	3975,
-	3975,
-	4128,
-	4046,
-	3975,
-	5803,
-	3975,
-	1129,
-	2445,
-	3975,
-	4138,
-	4126,
-	2522,
-	2522,
-	5383,
-	5383,
-	4046,
-	4138,
-	3292,
-	3362,
-	5958,
-	1946,
-	1946,
-	1946,
-	5803,
-	6212,
-	6242,
-	4024,
-	3975,
-	4046,
-	3975,
-	5813,
-	5813,
-	5899,
-	4024,
-	4046,
-	5341,
-	2445,
-	4986,
-	4046,
-	4024,
-	1950,
-	3432,
-	4138,
-	4517,
-	4138,
-	1462,
-	2988,
-	1462,
-	821,
-	2988,
-	4138,
-	4524,
-	4907,
-	4976,
-	98,
+	5078,
+	6678,
+	2930,
+	6257,
+	5078,
+	5052,
+	2329,
+	4208,
+	5179,
+	5650,
+	5179,
+	1740,
+	3636,
+	1740,
+	953,
+	3636,
+	5179,
+	5658,
+	6161,
+	6245,
+	100,
 	12,
 	28,
-	629,
-	593,
-	381,
-	825,
-	4351,
-	4752,
-	5895,
-	5813,
-	5813,
-	5813,
-	5813,
-	5026,
-	958,
-	928,
-	2445,
-	2445,
-	2445,
-	4920,
-	1462,
-	5962,
-	564,
-	1015,
-	4737,
-	2988,
-	1462,
-	6242,
-	4138,
-	4138,
-	4138,
-	3362,
-	1946,
-	1946,
-	4229,
-	4275,
-	4218,
-	4217,
-	4233,
-	5240,
-	5586,
-	5813,
-	5813,
-	5813,
-	5813,
-	6242,
-	4046,
-	4024,
-	4046,
-	1923,
-	831,
-	6192,
-	6242,
-	4024,
-	2423,
-	2423,
-	2423,
-	1089,
-	3342,
-	5962,
-	3975,
-	4046,
-	1923,
-	831,
-	966,
-	4740,
-	4383,
-	4383,
-	4494,
-	4494,
-	5340,
-	5294,
-	4735,
-	4494,
-	5378,
-	5378,
-	4740,
-	4585,
-	1937,
-	3362,
-	4138,
-	2445,
-	1782,
-	932,
-	4024,
-	2821,
-	4719,
-	4491,
-	4913,
-	966,
-	4024,
-	3342,
-	4024,
-	3342,
-	4046,
-	3362,
-	4046,
-	4046,
-	681,
-	3975,
-	6242,
-	4138,
-	3975,
-	4024,
-	2988,
-	4046,
-	4046,
-	2988,
-	2988,
-	3975,
-	4046,
-	1935,
-	1935,
-	2840,
-	1801,
-	3342,
-	2988,
-	1801,
-	3362,
-	4138,
-	2445,
-	2445,
-	2840,
-	4138,
-	2445,
-	2840,
-	1801,
-	3975,
-	3362,
-	3342,
-	2988,
-	1801,
-	4138,
-	3362,
-	3975,
-	4046,
-	4046,
-	4138,
-	4138,
-	175,
-	6212,
-	323,
-	931,
-	3342,
-	3342,
-	2423,
-	2821,
-	2821,
-	3342,
-	6242,
-	4138,
-	108,
-	4046,
-	3362,
-	4138,
-	1547,
-	1547,
-	4138,
-	5391,
-	5391,
-	5979,
-	2445,
-	1118,
-	5506,
-	4745,
-	2990,
-	1485,
-	6242,
-	6136,
-	6233,
-	3362,
-	1935,
-	1946,
-	668,
-	3975,
-	4046,
-	2988,
-	4138,
-	145,
-	3975,
-	3975,
-	937,
-	2445,
-	2560,
-	5392,
-	4024,
-	78,
-	633,
-	1118,
-	362,
-	471,
-	4138,
-	606,
-	3975,
-	3292,
-	3430,
-	3362,
-	3362,
-	3362,
-	1986,
-	633,
-	3362,
-	3362,
-	1009,
-	1609,
-	1609,
-	889,
-	6070,
-	5803,
-	5803,
-	5803,
-	5803,
-	5803,
-	5803,
-	5813,
-	5813,
-	5381,
-	4938,
-	4405,
-	4405,
-	4609,
-	5962,
-	5962,
-	5503,
-	4024,
-	4046,
-	3542,
-	4138,
-	5050,
-	6242,
-	705,
-	4138,
-	1366,
-	6242,
-	1986,
-	31,
-	5800,
-	3243,
-	5730,
-	6004,
-	5895,
-	5891,
-	3342,
-	3975,
-	4024,
-	3362,
-	3975,
-	4046,
-	4046,
-	4138,
-	2990,
-	4138,
-	936,
-	3292,
-	703,
-	956,
-	1113,
-	3975,
-	3292,
-	2990,
-	1939,
-	4138,
-	3342,
-	3342,
-	3342,
-	3342,
-	4024,
-	4024,
-	4024,
-	4138,
-	3342,
-	1782,
-	931,
-	3342,
-	1782,
-	4138,
-	3342,
-	4138,
-	3342,
-	4024,
-	2821,
-	3342,
-	1782,
-	4138,
-	3342,
-	4024,
-	2821,
-	4024,
-	2821,
-	4024,
-	4024,
-	4024,
-	4024,
-	4126,
-	2445,
-	1089,
-	4138,
-	3100,
-	3975,
-	4138,
-	989,
-	4138,
-	1946,
-	1946,
-	4046,
-	4046,
-	4116,
-	1782,
-	933,
-	932,
-	931,
-	616,
-	3975,
-	4046,
-	931,
-	4046,
-	2988,
-	4046,
-	4046,
-	4046,
-	4046,
-	4046,
-	813,
-	3362,
-	2988,
-	4024,
-	4024,
-	5503,
-	3362,
-	3362,
-	3342,
-	4046,
-	1413,
-	4046,
-	4138,
-	2982,
-	2982,
-	4046,
-	4126,
-	4024,
-	3100,
-	5899,
-	4126,
-	2423,
-	4138,
-	4126,
-	4046,
-	2887,
-	5899,
-	4138,
-	1782,
-	1935,
-	4138,
-	2840,
-	2423,
-	2445,
-	3975,
-	3975,
-	3975,
-	3975,
-	3975,
-	3975,
-	5813,
-	5813,
-	5813,
-	3975,
-	5813,
-	929,
-	4138,
-	4138,
-	3975,
-	3362,
-	4138,
-	4138,
-	891,
-	4046,
-	3430,
-	3430,
-	3362,
-	3362,
-	3342,
-	4138,
-	4138,
-	4138,
-	3975,
-	4138,
-	2990,
-	4024,
-	3342,
-	4126,
-	4138,
-	3342,
-	4138,
-	3100,
-	4126,
-	3100,
-	4024,
-	6242,
-	1926,
-	3975,
-	6224,
-	4046,
-	6242,
-	4138,
-	64,
-	4138,
-	4138,
-	4138,
-	0,
-	0,
-	0,
-	4138,
-	2982,
-	4138,
-	735,
-	735,
-	4138,
-	4138,
-	4138,
-	3342,
-	4024,
-	4024,
-	931,
-	616,
-	4138,
-	2423,
-	2821,
-	2821,
-	0,
-	110,
-	1595,
-	5962,
-	4138,
-	2990,
-	1782,
-	3342,
-	1782,
-	931,
-	2840,
-	2821,
-	936,
-	4138,
-	3292,
-	4138,
-	4138,
-	635,
-	3975,
-	3975,
-	4026,
-	4046,
-	3362,
-	4046,
-	3362,
-	1926,
-	3292,
-	4138,
-	3342,
-	4138,
-	6212,
-	4138,
-	1457,
-	2988,
-	2988,
-	4138,
-	3362,
-	3342,
-	3975,
-	5962,
-	5962,
-	4138,
-	4046,
-	5960,
-	5962,
-	4046,
-	5338,
-	4397,
-	2445,
-	5130,
-	6192,
-	2445,
-	5668,
-	4138,
-	3362,
-	3362,
-	4046,
-	4046,
-	3362,
-	4046,
-	3975,
-	3975,
-	3975,
-	4046,
-	4046,
-	3975,
-	4046,
-	4046,
-	4046,
-	3975,
-	4046,
-	4046,
-	3975,
-	4046,
-	6242,
-	3362,
-	3362,
-	4046,
-	6206,
-	4138,
-	4116,
-	4025,
-	4025,
-	4138,
-	4138,
-	6242,
-	4138,
-	3362,
-	1939,
-	3362,
-	4046,
-	3362,
-	4138,
-	2840,
-	2988,
-	4024,
-	4046,
-	4046,
-	1935,
-	3975,
-	4046,
-	3362,
-	4046,
-	4046,
-	3975,
-	4138,
-	4138,
-	3362,
-	4046,
-	3362,
-	3362,
-	2982,
-	2982,
-	2982,
-	2982,
-	2982,
-	2982,
-	2982,
-	2982,
-	4046,
-	4046,
-	4046,
-	6242,
-	4138,
-	1926,
-	599,
-	3975,
-	3975,
-	4024,
-	3362,
-	2840,
-	4046,
-	2982,
-	1926,
-	3362,
-	2840,
-	2982,
-	4138,
-	3975,
-	3292,
-	3362,
-	2990,
-	4138,
-	1926,
-	1750,
-	4024,
-	3362,
-	2821,
-	2840,
-	4046,
-	2982,
-	4138,
-	1926,
-	1926,
-	1926,
-	1926,
+	736,
+	690,
+	424,
+	957,
+	5455,
+	5970,
+	7366,
+	7273,
+	7273,
+	7273,
+	7273,
+	6304,
+	1110,
+	1076,
+	2930,
+	2930,
+	2930,
+	6179,
+	1740,
+	7450,
+	658,
+	1174,
+	5953,
+	3636,
+	1740,
+	7822,
+	5179,
+	5179,
+	5179,
+	4133,
+	2325,
+	2325,
+	5322,
+	5370,
+	5311,
+	5310,
+	5326,
+	6549,
+	6965,
+	7273,
+	7273,
+	7273,
+	7273,
+	7822,
+	5078,
+	5052,
+	5078,
+	2299,
 	963,
-	4046,
-	3362,
-	5813,
-	5382,
-	5962,
-	2840,
-	4046,
-	2982,
-	3975,
-	3975,
-	4127,
-	3431,
-	4127,
-	3431,
-	3343,
-	1936,
-	1585,
-	4024,
-	4046,
-	1113,
-	2445,
-	4024,
-	6212,
-	6242,
-	3343,
-	5972,
-	5704,
-	5461,
-	5511,
-	5511,
-	5170,
-	4824,
-	5702,
-	6083,
-	6073,
-	3292,
-	3362,
-	4046,
-	2445,
-	4024,
-	3342,
-	2445,
-	4024,
-	3292,
-	3975,
-	2445,
-	4024,
-	6242,
-	4138,
-	3362,
-	4046,
-	4046,
-	3362,
-	2445,
-	4024,
-	6242,
-	4138,
-	3362,
-	4046,
-	2445,
-	4024,
-	6242,
-	3342,
-	4024,
-	2445,
-	4024,
-	6242,
-	4138,
-	3362,
-	4046,
-	4046,
-	3362,
-	2445,
-	4024,
-	6242,
-	2990,
-	2990,
+	7753,
+	7822,
+	5052,
+	2903,
+	2903,
+	2903,
+	1271,
+	4109,
+	7450,
+	4987,
+	5078,
+	2299,
+	963,
+	1120,
+	5956,
+	5492,
+	5492,
+	5623,
+	5623,
+	6676,
+	6616,
+	5951,
+	5623,
+	6722,
+	6722,
+	5956,
+	5755,
+	2315,
+	4133,
+	5179,
+	2930,
+	2105,
+	1081,
+	5052,
+	3401,
+	5935,
+	5620,
+	6169,
+	1120,
+	5052,
+	4109,
+	5052,
+	4109,
+	5078,
+	4133,
+	5078,
+	5078,
+	792,
+	4987,
+	7822,
+	5179,
+	4987,
+	5052,
+	3636,
+	5078,
+	5078,
+	3636,
+	3636,
+	4987,
+	5078,
+	2313,
+	2313,
+	3423,
+	2127,
+	4109,
+	3636,
+	2127,
+	4133,
+	5179,
+	2930,
+	2930,
+	3423,
+	5179,
+	2930,
+	3423,
+	2127,
+	4987,
+	4133,
+	4109,
+	3636,
+	2127,
+	5179,
+	4133,
+	4987,
+	5078,
+	5078,
+	5179,
+	5179,
+	181,
+	7783,
+	364,
+	1079,
+	4109,
+	4109,
+	2903,
+	3401,
+	3401,
+	4109,
+	7822,
+	5179,
+	110,
+	5078,
+	4133,
+	5179,
+	1828,
+	1828,
+	5179,
+	6738,
+	6738,
+	7471,
+	2930,
+	1307,
+	6878,
+	5963,
+	3641,
+	1765,
+	7822,
+	7654,
+	7813,
+	4133,
+	2313,
+	2325,
+	777,
+	4987,
+	5078,
+	3636,
+	5179,
+	149,
+	4987,
+	4987,
+	1087,
+	2930,
+	3085,
+	6739,
+	5052,
+	78,
+	740,
+	1307,
+	404,
+	538,
+	5179,
+	705,
+	4987,
+	4044,
+	4206,
+	4133,
+	4133,
+	4133,
+	2374,
+	740,
+	4133,
+	4133,
+	1168,
+	1904,
+	1904,
+	1035,
+	7582,
+	7263,
+	7263,
+	7263,
+	7263,
+	7263,
+	7263,
+	7273,
+	7273,
+	6725,
+	6201,
+	5515,
+	5515,
+	5781,
+	7450,
+	7450,
+	6875,
+	5052,
+	5078,
+	4429,
+	5179,
+	6330,
+	7822,
+	818,
+	5179,
+	1634,
+	7822,
+	2374,
+	31,
+	7260,
+	3995,
+	7161,
+	7511,
+	7366,
+	7362,
+	4109,
+	4987,
+	5052,
+	4133,
+	4987,
+	5078,
+	5078,
+	5179,
+	3641,
+	5179,
+	1086,
+	4044,
+	816,
+	1108,
+	1301,
+	4987,
+	4044,
+	3641,
+	2318,
+	5179,
+	4109,
+	4109,
+	4109,
+	4109,
+	5052,
+	5052,
+	5052,
+	5179,
+	4109,
+	2105,
+	1079,
+	4109,
+	2105,
+	5179,
+	4109,
+	5179,
+	4109,
+	5052,
+	3401,
+	4109,
+	2105,
+	5179,
+	4109,
+	5052,
+	3401,
+	5052,
+	3401,
+	5052,
+	5052,
+	5052,
+	5052,
+	5166,
+	2930,
+	1271,
+	5179,
+	3780,
+	4987,
+	5179,
+	1146,
+	5179,
+	2325,
+	2325,
+	5078,
+	5078,
+	5152,
+	2105,
+	1082,
+	1081,
+	1079,
+	721,
+	4987,
+	5078,
+	1079,
+	5078,
+	3636,
+	5078,
+	5078,
+	5078,
+	5078,
+	5078,
+	945,
+	4133,
+	3636,
+	5052,
+	5052,
+	6875,
+	4133,
+	4133,
+	4109,
+	5078,
+	1691,
+	5078,
+	5179,
+	3627,
+	3627,
+	5078,
+	5166,
+	5052,
+	3780,
+	7370,
+	5166,
+	2903,
+	5179,
+	5166,
+	5078,
+	3473,
+	7370,
+	5179,
+	2105,
+	2313,
+	5179,
+	3423,
+	2903,
+	2930,
+	4987,
+	4987,
+	4987,
+	4987,
+	4987,
+	4987,
+	7273,
+	7273,
+	7273,
+	4987,
+	7273,
+	1077,
+	5179,
+	5179,
+	4987,
+	4133,
+	5179,
+	5179,
+	1037,
+	5078,
+	4206,
+	4206,
+	4133,
+	4133,
+	4109,
+	5179,
+	5179,
+	5179,
+	4987,
+	5179,
+	3641,
+	5052,
+	4109,
+	5166,
+	5179,
+	4109,
+	5179,
+	3780,
+	5166,
+	3780,
+	5052,
+	7822,
+	2302,
+	4987,
+	7802,
+	5078,
+	7822,
+	5179,
+	64,
+	5179,
+	5179,
+	5179,
+	0,
+	0,
+	0,
+	5179,
+	3627,
+	5179,
+	853,
+	853,
+	5179,
+	5179,
+	5179,
+	4109,
+	5052,
+	5052,
+	1079,
+	721,
+	5179,
+	2903,
+	3401,
+	3401,
+	0,
+	112,
+	1886,
+	7450,
+	5179,
+	3641,
+	2105,
+	4109,
+	2105,
+	1079,
+	3423,
+	3401,
+	1086,
+	5179,
+	4044,
+	5179,
+	5179,
+	742,
+	4987,
+	4987,
+	5054,
+	5078,
+	4133,
+	5078,
+	4133,
+	2302,
+	4044,
+	5179,
+	4109,
+	5179,
+	7783,
+	5179,
+	1735,
+	3636,
+	3636,
+	5179,
+	4133,
+	4109,
+	4987,
+	7450,
+	7450,
+	5179,
+	5078,
+	7447,
+	7450,
+	5078,
+	6673,
+	5506,
+	2930,
+	6423,
+	7753,
+	2930,
+	7071,
+	5179,
+	4133,
+	4133,
+	5078,
+	5078,
+	4133,
+	5078,
+	4987,
+	4987,
+	4987,
+	5078,
+	5078,
+	4987,
+	5078,
+	5078,
+	5078,
+	4987,
+	5078,
+	5078,
+	4987,
+	5078,
+	7822,
+	4133,
+	4133,
+	5078,
+	7776,
+	5179,
+	5152,
+	5053,
+	5053,
+	5179,
+	5179,
+	7822,
+	5179,
+	4133,
+	2318,
+	4133,
+	5078,
+	4133,
+	5179,
+	3423,
+	3636,
+	5052,
+	5078,
+	5078,
+	2313,
+	4987,
+	5078,
+	4133,
+	5078,
+	5078,
+	4987,
+	5179,
+	5179,
+	4133,
+	5078,
+	4133,
+	4133,
+	3627,
+	3627,
+	3627,
+	3627,
+	3627,
+	3627,
+	3627,
+	3627,
+	5078,
+	5078,
+	5078,
+	7822,
+	5179,
+	2302,
+	698,
+	4987,
+	4987,
+	5052,
+	4133,
+	3423,
+	5078,
+	3627,
+	2302,
+	4133,
+	3423,
+	3627,
+	5179,
+	4987,
+	4044,
+	4133,
+	3641,
+	5179,
+	2302,
+	2067,
+	5052,
+	4133,
+	3401,
+	3423,
+	5078,
+	3627,
+	5179,
+	2302,
+	2302,
+	2302,
+	2302,
+	1116,
+	5078,
+	4133,
+	7273,
+	6726,
+	7450,
+	3423,
+	5078,
+	3627,
+	4987,
+	4987,
+	5167,
+	4207,
+	5167,
+	4207,
+	4110,
+	2314,
+	1875,
+	5052,
+	5078,
+	1301,
+	2930,
+	5052,
+	7783,
+	7822,
+	4110,
+	7461,
+	7114,
+	6826,
+	6883,
+	6883,
+	6468,
+	6058,
+	7112,
+	7595,
+	7585,
+	4044,
+	4133,
+	5078,
+	2930,
+	5052,
+	4109,
+	2930,
+	5052,
+	4044,
+	4987,
+	2930,
+	5052,
+	7822,
+	5179,
+	4133,
+	5078,
+	5078,
+	4133,
+	2930,
+	5052,
+	7822,
+	5179,
+	4133,
+	5078,
+	2930,
+	5052,
+	7822,
+	4109,
+	5052,
+	2930,
+	5052,
+	7822,
+	5179,
+	4133,
+	5078,
+	5078,
+	4133,
+	2930,
+	5052,
+	7822,
+	3641,
+	3641,
 	0,
 	0,
 	0,
 	0,
 	0,
 	0,
-	4138,
-	4138,
-	4138,
-	4138,
-	3362,
-	4046,
-	2445,
-	4024,
-	6242,
-	3362,
-	4046,
-	2445,
-	4024,
-	6242,
-	4138,
-	1939,
-	4046,
-	4046,
-	2445,
-	4024,
-	4138,
-	4138,
-	4138,
-	4138,
-	3362,
-	6242,
-	3292,
-	3975,
-	2445,
-	4024,
-	6242,
-	4138,
-	4138,
-	4138,
-	4138,
-	3362,
-	3362,
-	4046,
-	2445,
-	4024,
-	6242,
-	4138,
-	4138,
-	3975,
-	3975,
-	4046,
-	4138,
-	3292,
-	2990,
-	3975,
-	4046,
-	4138,
-	6242,
-	3362,
-	3362,
-	4138,
-	4138,
-	3342,
-	1801,
-	1946,
-	1946,
-	5958,
-	3292,
-	3975,
-	2445,
-	4024,
-	6242,
+	5179,
+	4133,
+	1123,
+	2325,
+	5179,
+	5179,
+	5179,
+	5179,
+	4133,
+	5078,
+	2930,
+	5052,
+	7822,
+	4133,
+	5078,
+	2930,
+	5052,
+	7822,
+	4044,
+	4987,
+	2930,
+	5052,
+	7822,
+	5179,
+	2318,
+	5078,
+	5078,
+	2930,
+	5052,
+	5179,
+	5179,
+	5179,
+	5179,
+	4133,
+	7822,
+	4044,
+	4987,
+	2930,
+	5052,
+	7822,
+	5179,
+	5179,
+	5179,
+	5179,
+	4133,
+	4133,
+	5078,
+	2930,
+	5052,
+	7822,
+	5179,
+	5179,
+	4987,
+	4987,
+	5078,
+	5179,
+	4044,
+	3641,
+	4987,
+	5078,
+	5179,
+	7822,
+	4133,
+	4133,
+	5179,
+	5179,
+	4109,
+	2127,
+	2325,
+	2325,
+	7445,
+	4044,
+	4987,
+	2930,
+	5052,
+	7822,
 	0,
-	981,
+	1137,
 	0,
-	4138,
-	3342,
-	3362,
-	1801,
-	1946,
-	4024,
-	3975,
-	3975,
-	3975,
-	4046,
-	4046,
-	4046,
-	4046,
-	2990,
-	1939,
-	4046,
-	1939,
-	4138,
-	2445,
-	1935,
-	2840,
-	3362,
-	4046,
-	4046,
-	1946,
-	3362,
-	3362,
-	1935,
-	4046,
-	3991,
-	4046,
-	4046,
-	3975,
-	4138,
-	1926,
-	1935,
-	4024,
-	3975,
-	4046,
-	4046,
-	4138,
-	1939,
-	4046,
-	4138,
-	1939,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	5179,
+	4109,
+	4133,
+	2127,
+	2325,
+	5052,
+	4987,
+	4987,
+	4987,
+	5078,
+	5078,
+	5078,
+	5078,
+	3641,
+	2318,
+	5078,
+	2318,
+	5179,
+	2930,
+	2313,
+	3423,
+	4133,
+	5078,
+	5078,
+	2325,
+	4133,
+	4133,
+	2313,
+	5078,
+	5003,
+	5078,
+	5078,
+	4987,
+	5179,
+	2302,
+	2313,
+	5052,
+	4987,
+	5078,
+	5078,
+	5179,
+	2318,
+	5078,
+	5179,
+	2318,
 	0,
 	0,
 	0,
@@ -3783,47 +3808,58 @@ static const int32_t s_InvokerIndices[959] =
 	0,
 	0,
 	0,
-	5958,
-	5656,
-	5891,
-	6083,
-	4138,
-	4138,
-	4138,
-	4046,
-	4138,
-	4046,
-	3362,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4046,
-	4138,
-	4138,
-	837,
-	6242,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	7445,
+	7057,
+	7362,
+	7595,
+	5179,
+	5179,
+	5179,
+	5078,
+	5179,
+	5078,
+	4133,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5078,
+	5179,
+	5179,
+	970,
+	7822,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[4] = 
 {
-	{ 0x02000095, { 1, 12 } },
-	{ 0x02000097, { 13, 22 } },
-	{ 0x02000098, { 35, 3 } },
-	{ 0x06000343, { 0, 1 } },
+	{ 0x02000097, { 1, 12 } },
+	{ 0x02000099, { 13, 22 } },
+	{ 0x0200009A, { 35, 3 } },
+	{ 0x0600034C, { 0, 1 } },
 };
 extern const uint32_t g_rgctx_T_t047CCAB016DADA45BF2B971B3E7C13F5D9EEAD31;
 extern const uint32_t g_rgctx_Span_1_get_Length_m839FCF6D0CEBC13A23B4913B4B3BE1D2EF497540;
@@ -3908,7 +3944,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_CodeGenModule;
 const Il2CppCodeGenModule g_System_CodeGenModule = 
 {
 	"System.dll",
-	959,
+	968,
 	s_methodPointers,
 	9,
 	s_adjustorThunks,
